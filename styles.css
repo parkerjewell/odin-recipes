@@ -21,7 +21,14 @@ body {
     background-color: #333;
     color: white;
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header a {
+    position: absolute;
+    left: 20px;
 }
 
 .content {
@@ -47,8 +54,8 @@ body {
 .content img {
     border: solid 2px rgb(249, 131, 131);
     display: block;
-    width: 400px;
-    max-width: 100%;
+    max-width: 400px;
+    max-height: 400px;
     margin: 0px auto;
     padding: 0;
 }
